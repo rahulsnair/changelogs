@@ -4,8 +4,11 @@
 =============================================================================================================================
  
  ! Switched back to CM13 Source tree from Slim tree
+ 
  ! Removed Amaze and Nova Launcher
+ 
  ! Auto Brightness Tweaks
+ 
  ! Added Ambient display while device pick-up
  
 =============================================================================================================================
