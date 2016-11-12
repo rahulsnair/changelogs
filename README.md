@@ -1,4 +1,105 @@
 ====================
+     11-12-2016
+====================
+
+
+   * frameworks/av/
+c1382b7 OMXNodeInstance: Fix legacy HAL1 after merge of android-7.1.0_r7
+
+   * kernel/motorola/msm8952/
+7781d8c mdss: livedisplay: Use CABC command chain for CE
+ce22dad video: mdss: remove erroneous mutex_unlock
+fdff6fa video: mdss: LiveDisplay driver
+
+   * packages/apps/Camera2/
+35a25ff camera2: Fix NPE
+
+   * device/qcom/common/
+a0f2b05 power: msm8937: Improve boost values
+
+   * device/qcom/sepolicy/
+9e0da1f msm8974: add common sepolicy needed for M blobs on N
+
+   * frameworks/av/
+4435e87 Allow to use baseline profile for AVC recording
+
+   * frameworks/base/
+7010ff3 Add back accidentally removed strings
+3f3d17a Tuner: allow power notif controls to be launched externally
+8fc0587 Tuner: hide settings item in dashboard
+c61fa36 SystemUI: add more buttons to NavBar Tuner
+a7be5b5 zygote: Allow device to append extra whitelisted paths
+
+   * packages/apps/CMParts/
+459884a Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_packages_apps_CMParts into bs7.1
+
+   * packages/apps/Settings/
+eb63e21 Settings: notifications: add tuner's importance level shortcut
+
+   * system/core/
+645ed47 [1/2] init.rc: remove hard-coded DOWNLOAD_CACHE environment variable
+
+   * vendor/beanstalk/
+d447873 [2/2] cm: allow devices to specify they have a separate /cache partition
+0bedcce Merge branch 'cm-14.1' of github.com:CyanogenMod/android_vendor_cm into bs7.1
+9689bb9 build: kernel: Set prefix based on KERNEL_ARCH
+e7573da build: qcom_target: Enable BOARD_USES_ADRENO
+
+   * android/
+662efeb Merge branch 'cm-14.1' of github.com:CyanogenMod/android into bs7.1
+4f70e6e cm: android-7.1.0_r7
+
+   * build/
+060066f Merge branch 'cm-14.1' of github.com:CyanogenMod/android_build into bs7.1
+
+   * device/motorola/athene/
+6a1b4ea athene: enable sdclang Build with Snapdragon LLVM Compiler
+
+   * device/qcom/common/
+c404f2a power: msm8937: Remove display_hint_sent usage
+3c49a11 power: msm8937: Fix build warnings
+
+   * external/bash/
+3088421 Revert "bash: prefer toybox's ls"
+
+   * frameworks/av/
+721cd20 libstagefright: fix camera/encoder for targets that using native handle source
+
+   * frameworks/base/
+e3c39c0 Turn on Power Notification Controls by default (1/2)
+0aa8071 PowerManager: don't pass NULL pointers to power HAL (2)
+c628010 systemui: Fix NPE when changing importance
+37e960c base: Rename reboot to restart in Power menu
+c52cba3 Add CMSDK resource APK to Zygote FD whitelist
+e798015 Merge tag 'android-7.1.0_r7' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+   * hardware/qcom/audio/default/
+f864766 post_proc: use pathmap for include path
+
+   * packages/apps/CMParts/
+af889a9 cmparts: Rename reboot to restart in Power menu
+
+   * packages/apps/OmniSwitch/
+20c6c14 OmniSwitch: use gradient backgrounds
+
+   * packages/apps/Settings/
+23d3e82 Turn on Power Notification Controls by default (2/2)
+65e31ea settings: Rename reboot to restart in Power menu
+2a901b9 settings: nfc: Forward port Android Pay removal
+782798f Merge tag 'android-7.1.0_r7' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+   * packages/services/Telephony/
+bbe4889 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_packages_services_Telephony into bs7.1
+
+   * system/core/
+ef35d1f healthd: add support for bms and wipower
+15eb392 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_core into bs7.1
+
+   * system/sepolicy/
+500b25c Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_sepolicy into bs7.1
+
+
+====================
      11-09-2016
 ====================
 
