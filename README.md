@@ -1,4 +1,155 @@
 ====================
+     11-16-2016
+====================
+
+
+   * frameworks/base/
+c6b5f76 SystemUI: Fix volume panel inconsistencies
+dd6f3a8 Include material ringtones and notification sounds
+8140357 Sounds: Cleanup duplicate ringtones/alarms
+927a13e Revert "zygote: Allow device to append extra whitelisted paths"
+60db1b0 Base: fix the default icon for lockscreen shortcuts customisation
+
+   * hardware/qcom/media/
+1a4a797 Update qcom-media    * path guard
+
+   * packages/apps/Dialer/
+424e0c2 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_packages_apps_Dialer into bs7.1
+
+   * packages/apps/Settings/
+2309055 settings: Move Emergency broadcasts to Wireless & networks
+8c41d52 Settings : Improve app info screen
+ac5f247 Settings: add marquee to Device administrators screen
+529b5ce Settings: Use correct icon for ring volume
+
+   * packages/services/Telecomm/
+b115d74 Telecom: Ues proper sub IDs
+
+   * packages/services/Telephony/
+5be9bc4 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_packages_services_Telephony into bs7.1
+
+   * system/core/
+818d821 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_core into bs7.1
+dc67229 init: Allow devices to opt-out of fsck'ing on power off
+db04cb7 healthd: allow custom charger images
+
+   * vendor/beanstalk/
+430d4b5 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_vendor_cm into bs7.1
+
+====================
+     11-15-2016
+====================
+
+
+   * build/
+2416966 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_build into bs7.1
+
+   * frameworks/base/
+54913ae Reduce default screenshot delay to 100ms [1/2]
+8c4fae6 Add back button to navbar tuner
+91a83e1 Handle onOptionsItemSelected for TunerActivity
+
+   * hardware/qcom/media/
+c69ed02 media: Correct symlink for msm8084
+
+   * packages/apps/Dialer/
+a2e2866 InCallUI: Use proper sub IDs
+
+   * packages/apps/Settings/
+157fcdc Set default screenshot delay to 100
+
+   * packages/apps/Trebuchet/
+444e057 [DO NOT MERGE] Address some spacing issues in all apps related to new support library
+a77e9b7 Adding small padding between icons in AllApps.
+b0111a5 Compressing Launcher resources.
+
+   * packages/inputmethods/LatinIME/
+c356a1d LatinIME: disable sound on keypress on all devices by default
+
+   * system/core/
+cbbaa82 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_core into bs7.1
+10f364a Revert "healthd: add support for bms and wipower"
+
+   * vendor/beanstalk/
+be2fca1 apns: Add Reliance Jio apn's
+bcd2bd9 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_vendor_cm into bs7.1
+9aa6ce1 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_vendor_cm into bs7.1
+2a5d907 qcom_target: Remove unused support for CAF manifests
+367802b qcom_target: Remove unused sony HAL support
+
+====================
+     11-14-2016
+====================
+
+
+   * build/
+c84c6b6 core: Remove more color leftovers
+7a6a13b core: Remove color leftover
+
+   * frameworks/opt/net/wifi/
+a5190f3 WifiQualifiedNetworkSelector: turn down the logspam
+
+   * hardware/qcom/media/
+88d7385 media: Undo damage to pathmapping
+
+   * kernel/motorola/msm8952/
+6de8a8c athene: disable evbug module
+9b331e4 athene: enable CONFIG_SECURITY_PERF_EVENTS_RESTRICT
+1791490 cpuidle: lpm-levels: Fix possible null pointer access
+abaedd3 cpuidle: lpm-levels: Consider cluster history for LPM selection
+59f2dad cpuidle: lpm-levels: Consider history during LPM selection
+b2463ae lpm-levels: Use minimum residency values for mode selection
+1af9354 lpm-levels: Use residency instead of power and energy overhead
+eb4b568 Merge "diag: Fix race condition while closing SMD"
+087365c ASoC: msm: qdsp6v2: Fix timeout error in ADM_CMD_SET_PP_PARAMS_V5
+142d287 msm: mdss: Fix ctl flush bits reset by dspp programming
+c5c817a mm: remove gup_flags FOLL_WRITE games from __get_user_pages()
+a7ac16c msm: ipa: fix ioctl input param validation
+561be1c ion: disable system contig heap
+62a04de ARM: dts: msm: Add device node for FSUSB for msm8976/56
+3e9d973 EHCI: msm: Add required support to use FSUSB in host mode
+2b041f3 msm: crypto: Fix integer over flow check in qce driver
+d852795 drivers: soc: add size checks and update log messages
+0e2a8e1 USB: UICC: Set Root HUB speed as USB2
+21035c1 clk: qcom: clock-gcc-8976: Add BCR reg for block reset of USB
+68e22b9 Merge "msm: camera: cpp: Validate frame message before manipulating it."
+
+   * packages/apps/Screencast/
+8a6711c screencast: Fix the recording timer notification
+
+   * packages/services/Telecomm/
+1d532d3 Telecomm: Forward port phone_type switch support
+
+   * packages/services/Telephony/
+929b3e7 Revert "Add support for DSDA"
+
+   * system/core/
+f422f00 init: Fix possible open file pointer
+
+   * vendor/beanstalk/
+3681177 qcom_target: Restore original AOSP hardware/qcom/media pathmap
+aa92150 config: Add missing \ in bootanimation pick
+
+====================
+     11-13-2016
+====================
+
+
+   * external/fsck_msdos/
+674d58f fsck_msdos: Don't use Snapdragon LLVM
+
+   * hardware/qcom/media/
+3f66f09 mm-video: vidc: Remove hardcoding of BufCountActual
+2a513bd mm-video: venc: update color format in port-def
+29d5565 mm-video: venc: Use correct flag for buffer index selection
+bd9d609 mm-video: venc: update allocation-size check for meta-buffer
+
+   * system/core/
+422f671 healthd: dock battery
+deda0d8 healthd: Detect power supply type for all charger devices
+dde613d Revert "healthd: dock battery"
+
+====================
      11-12-2016
 ====================
 
