@@ -1,4 +1,83 @@
 ====================
+     11-16-2016
+====================
+
+
+   * frameworks/base/
+cc194e9 Merge "Fwb: [SQUASH] Battery styles [2/2]" into n7.1
+
+   * hardware/qcom/media/
+1a4a797 Update qcom-media    * path guard
+
+   * packages/apps/Dialer/
+30c87de Clean up volume boost button logic.
+
+   * platform_manifest/
+123cf04 Merge "manifest: stop tracking Camera2" into n7.1
+
+====================
+     11-15-2016
+====================
+
+
+   * build/
+6870728 build: Remove unneeded endif
+
+   * packages/apps/Settings/
+38a8c2c Settings: Battery styles [1/2]
+
+   * packages/services/Telecomm/
+b115d74 Telecom: Ues proper sub IDs
+
+   * packages/services/Telephony/
+4776eac PhoneUtils: Drop support for DSDA
+
+   * system/core/
+7e3a4d5 init: Fix possible open file pointer
+
+   * vendor/aoscp/
+da98900 devices: add support for Moto G4 Plus (Athene)
+
+====================
+     11-14-2016
+====================
+
+
+   * frameworks/opt/net/wifi/
+a5190f3 WifiQualifiedNetworkSelector: turn down the logspam
+
+   * kernel/motorola/msm8952/
+6de8a8c athene: disable evbug module
+
+   * packages/inputmethods/LatinIME/
+c356a1d LatinIME: disable sound on keypress on all devices by default
+
+====================
+     11-13-2016
+====================
+
+
+   * external/fsck_msdos/
+674d58f fsck_msdos: Don't use Snapdragon LLVM
+
+====================
+     11-12-2016
+====================
+
+
+   * frameworks/av/
+c1382b7 OMXNodeInstance: Fix legacy HAL1 after merge of android-7.1.0_r7
+
+   * packages/apps/Camero/
+49d524f Camera: Initial bringup
+
+   * packages/apps/Contacts/
+45d4272 Fix NPE when 'merge contacts' encounters unknown names.
+
+   * prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64//
+7f4cfb9 Qcom LLVM
+
+====================
      11-09-2016
 ====================
 
