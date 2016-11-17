@@ -1,7 +1,35 @@
 ====================
+     11-17-2016
+====================
+
+
+   * device/motorola/athene/
+2dfe23b athene:tweak power config a little bit
+        athene:add osprey liblights
+
+   * packages/apps/Settings/
+fc797ae Merge changes I8076bccf,I21dd6c25 into n7.1
+
+   * vendor/aoscp/
+589cea3 vendor: add required props for Google SetupWizard
+
+
+====================
      11-16-2016
 ====================
 
+
+   * frameworks/base/
+e583316 Update Polish Translation
+
+   * hardware/qcom/media/
+0124a88 media: Add missing links
+
+   * packages/apps/Bluetooth/
+168ecad bluetooth: Prevent null pointer crashes in A2DP initNative
+
+   * packages/apps/COTA/
+7fea794 Cota: Update imageview to display correctly
 
    * frameworks/base/
 cc194e9 Merge "Fwb: [SQUASH] Battery styles [2/2]" into n7.1
