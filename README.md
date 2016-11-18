@@ -1,4 +1,28 @@
 ====================
+     11-18-2016
+====================
+
+
+   * device/motorola/athene/
+3d754e9 athene: Update CarrierConfig overlay from stock
+
+   * frameworks/base/
+4d823ea Merge "QSPanel: Brightness icon switch[2/2]" into n7.1
+
+   * packages/apps/Settings/
+e2e889b Settings: Fix device storage menu when using Adopted Storage
+
+   * platform_manifest/
+6c0ce25 Merge "manifest: track Camero's dev branch" into n7.1
+
+   * vendor/aoscp/
+b3143d4 Merge changes Ibba28bfe,I11568ce5 into n7.1
+
+   * vendor/motorola/
+e3e5f35 Revert: athene: omx: use stock N libs (reverted from commit e52865f05729686e3c061f70131a6fa8c103ea4a)
+
+
+====================
      11-17-2016
 ====================
 
