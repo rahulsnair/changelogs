@@ -1,4 +1,22 @@
 ====================
+     11-19-2016
+====================
+
+
+   * device/qcom/common/
+4b8412d qc: Fix makefiles
+
+   * packages/apps/Settings/
+17132ea Update Italian Translation
+
+   * device/motorola/athene/
+   - 	athene:enable flush_merge on userdata
+		athene:cleanup ramdiskk
+		athene:increase touchboost ms	
+		athene: update mount options for user accessable partitions	
+		athene: add some ramdisk tweaks
+
+====================
      11-18-2016
 ====================
 
