@@ -10,7 +10,9 @@
 17132ea Update Italian Translation
 
    * device/motorola/athene/
-   - 	athene:enable flush_merge on userdata
+ 	
+I93e861   
+	        athene:enable flush_merge on userdata
 		athene:cleanup ramdiskk
 		athene:increase touchboost ms	
 		athene: update mount options for user accessable partitions	
