@@ -1,3 +1,167 @@
+
+====================
+     11-24-2016
+====================
+
+
+   * external/libnfc-nci/
+3a0daa8 libnfc-nci: set NXP_CHIP_TYPE based on BOARD_NFC_CHIPSET
+
+   * external/toybox/
+97ad7b2 toybox: Remove -e from @echo
+
+   * external/vim/
+702ccbe vim: kill colors
+
+   * frameworks/base/
+d46136b Merge "Upadate Italian Translation" into n7.1
+
+   * packages/apps/Bluetooth/
+523d4ec Automatic translation import
+
+   * packages/apps/Calendar/
+f0333d7 Automatic translation import
+
+   * packages/apps/Dialer/
+dad5de1 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+0f4466a Automatic translation import
+
+   * packages/providers/DownloadProvider/
+9a8fb27 Automatic translation import
+
+   * vendor/cmsdk/
+1c65ef7 PerformanceManager: Fix power hint values
+
+====================
+     11-23-2016
+====================
+
+
+   * external/openssh/
+613dd5c Merge branch 'master' of https://android.googlesource.com/platform/external/openssh into cm-14.1
+
+   * packages/apps/Camera2/
+566dafc Automatic translation import
+
+   * packages/apps/Camero/
+2454874 Merge changes I9474219c,I51e0a5c9,I69232e4f,Ib0a63f86,Iac39b930, ... into n7.1-dev
+
+   * packages/apps/CellBroadcastReceiver/
+69e754d Automatic translation import
+
+   * packages/apps/Contacts/
+31c6ef5 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+b9e413b Automatic translation import
+
+   * packages/apps/DeskClock/
+2cb0615 Automatic translation import
+
+   * packages/apps/ExactCalculator/
+677ff23 Automatic translation import
+
+   * packages/apps/Gallery2/
+f13eaf7 Automatic translation import
+
+   * packages/apps/Nfc/
+bdd0352 Automatic translation import
+
+   * packages/apps/SafetyRegulatoryInfo/
+884079c Automatic translation import
+
+   * packages/apps/Settings/
+ab49bd8 Settings: Small cleanup
+
+   * packages/apps/SoundRecorder/
+de75853 Automatic translation import
+
+   * packages/apps/Stk/
+19af7b3 Automatic translation import
+
+   * packages/apps/Terminal/
+1127958 Automatic translation import
+
+   * packages/apps/TvSettings/
+e7aa3df Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+5bb754f Automatic translation import
+
+   * packages/providers/CalendarProvider/
+a37b133 Automatic translation import
+
+   * packages/providers/CallLogProvider/
+68557e2 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+ac1ff69 Automatic translation import
+
+   * packages/providers/MediaProvider/
+ba47c2f Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+ec791e8 Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+0d59b58 Automatic translation import
+
+   * packages/screensavers/Basic/
+7d8b698 Automatic translation import
+
+   * packages/screensavers/PhotoTable/
+c412483 Automatic translation import
+
+   * packages/services/Telecomm/
+9cf0e3b Automatic translation import
+
+   * packages/wallpapers/LivePicker/
+566f4a0 Automatic translation import
+
+   * vendor/aoscp/
+b478271 Merge "vendor: Remove unneeded 'endif'" into n7.1
+
+====================
+     11-22-2016
+====================
+
+
+   * device/motorola/athene/
+c699c6a Merge changes Ic3ab7bac,Ib011fcdd,Ifeaab563 into n7.1
+
+   * kernel/motorola/msm8952/
+b6f2606 athene: disable fp as home button (reverted from commit 184efa90ca91241802419cde86ad3f2f32df7eb9)
+
+   * platform_manifest/
+7276976 Revert "manifest: stop tracking Camera2" Track Camera2 : Start tracking camera2 Some devices like kenzo having camera switching and vide recording working better only in camera2 Other camera apps are crashing, let's users give a choice to use camero & camera2 until we fix it.
+
+====================
+     11-21-2016
+====================
+
+
+   * device/qcom/common/
+680823c qcom: extractors: Add msm8960 graphics list
+
+   * device/qcom/sepolicy/
+139f082 msm8974: add common sepolicy needed for M blobs on N
+
+   * frameworks/opt/telephony/
+14b6666 Update carrier services on EVENT_NV_READY
+
+   * hardware/qcom/media/
+068d0fa mm-video: vidc: Remove hardcoding of BufCountActual
+
+====================
+     11-20-2016
+====================
+
+
+   * libcore/
+77335d6 Modify j.t.DateFormat.set24HourTimePref() to take a Boolean
+
 ====================
      11-19-2016
 ====================
