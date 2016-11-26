@@ -1,4 +1,100 @@
+====================
+     11-26-2016
+====================
 
+
+   * build/
+7ab6faa build: kernel: Remove duplicated targets
+2e422fe build: Set android jack args to global jack server args if existing
+
+   * device/motorola/athene/
+0232da0 athene: add back partitions context
+
+   * external/f2fs-tools/
+d895e39 f2fs-tools: hack headers to unbreak darwin build
+
+   * frameworks/base/
+e080c5a PhoneStatusBar: Small performance fixes
+7c6458f Revert "frameworks: fix system server crash"
+
+   * kernel/motorola/msm8952/
+881295f input: synaptics: Add checks of user input data
+ef36cdf msm: ipa: Sync reset command between ipa and uC
+a7811a6 qseecom: remove entry from qseecom_registered_app_list
+aeb08b6 msm: sensor: Adding mutex for actuator power down operations
+26ae46c msm: ipa: clear before processing
+4587ae0 drivers: qcom: ultrasound: Lock async driver calls
+3ae4146 ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call create_fixed_stream_quirk(), snd_usb_parse_audio_interface() and create_uaxx_quirk() functions allocate the audioformat object by themselves and free it upon error before returning. However, once the object is linked to a stream, it's freed again in snd_usb_audio_pcm_free(), thus it'll be double-freed, eventually resulting in a memory corruption.
+a5c315b ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk()
+6ef5082 BACKPORT: audit: fix a double fetch in audit_log_single_execve_arg()
+eb39c56 af_unix: Guard against other == sk in unix_dgram_sendmsg
+b390e2f xc2028: avoid use after free
+5148d35 block: fix use-after-free in sys_ioprio_get()
+2dcee40 HID: core: prevent out-of-bound readings
+5272a44 msm: ipa: use GFP_ATOMIC for DMA memory allocation during SSR
+632b4e6 msm: kgsl: Fix overflow in sharedmem cache range operation function
+eb18298 tcp: fix use after free in tcp_xmit_retransmit_queue()
+3e18705 UPSTREAM: perf: Fix race in swevent hash
+6cca8a5 qcom: scm: remove printing input arguments
+cf308a2 soc: qcom: scm: add check to avoid buffer overflow
+97ddddd ASoC: msm: Update machine driver with AVS 2.7 support
+aab3c86 ASoC: msm: add support for AVS 2.7 in native drivers
+dd9693e ASoC: msm: qdsp6v2: Add support to query adsp version
+6aeee49 radio-iris: check argument values before copying the data
+9baaf6b Merge "arm: dma-mapping: page align size before flush tlb"
+5254c2e msm: mdss: fix pp timeout during transition from LP1 to power on
+49e231c msm: mdss: extend mutex ovlock for vsync handler
+eecf268 ANDROID: binder: Add strong ref checks
+168fbf6 Merge pull request #2 from rahulsnair/cm-14.1
+
+   * platform_manifest/
+a2a8244 manifest: track frameworks/opt/hardware
+
+   * vendor/aoscp/
+fba488f Devices: Drop support for Onyx
+4f5b922 Configs: Drop support for NFC Enhanced
+d7937ca Devices: Update hammerhead makeConfig
+a3789e4 extract_utils: Use shasum on macOS
+462c3ce vendor_asocp: enable hidden storage manager
+78b7a90 Clean up 3G config for Vietnamese network
+
+   * vendor/cmsdk/
+81beee6 cmsdk: Ensure CMHW feature constants aren't optimized out
+
+   * vendor/motorola/
+97cb133 athene: derp
+814e8e8 athene: add missing permissions
+069ea8d athene: apply MM sensor blobs
+799f2de athene: don't use qti-telephony-common.jar
+d1b1207 athene: fix ril & data
+
+====================
+     11-25-2016
+====================
+
+
+   * device/motorola/athene/
+80e6eec fix build
+af3a84f athene: fingerprint update to latest Soak test NPJ25.75-2 > NPJ25.93-9
+09c79f0 athene: overlay: update carrier config
+754d38b athene: update proprietary files list
+698b399 athene: update from last soak test
+
+   * external/f2fs-tools/
+0d18747 libf2fs_fmt: Add missing src file
+
+   * packages/apps/PhoneCommon/
+430d7ca Automatic translation import
+
+   * packages/providers/DownloadProvider/
+aee1af3 Automatic translation import
+
+   * vendor/aoscp/
+cd174dc Bring cheesecake to kenzo :) - Welcome Redmi Note 3 (kenzo)
+
+   * vendor/motorola/
+42f0690 fix build
+42abc4d athene: update from last N soak
 ====================
      11-24-2016
 ====================
