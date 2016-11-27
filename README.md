@@ -1,4 +1,35 @@
 ====================
+     11-27-2016
+====================
+
+
+   * bootable/recovery/
+6a0693f bootloader_message: allow devices to override
+
+   * device/motorola/athene/
+bf8982c athene: sync proprietary files with vendor
+
+   * external/toybox/
+c3a5a80 losetup: Fix loop mounting
+
+   * frameworks/base/
+3d51ae2 Merge "sysui: New google pixel colors fix" into n7.1
+
+   * hardware/qcom/audio-caf/msm8960/
+b9282f8 hal: Port the dock support to non-legacy 8960 hal
+
+   * packages/apps/COTA/
+a6e92cb Cota: Make notification icon white
+6446d22 Cota: Readjust the image to display properly
+
+   * packages/apps/Settings/
+438570d Settings: Custom Carrier Label Option for MSIM
+e1aa841 Update Italian Translation
+
+   * packages/apps/SoundRecorder/
+d309f7d SoundRecorder: Add permission for ACCESS_NETWORK_STATE
+
+====================
      11-26-2016
 ====================
 
@@ -9,6 +40,7 @@
 
    * device/motorola/athene/
 0232da0 athene: add back partitions context
+80e6eec fix build
 
    * external/f2fs-tools/
 d895e39 f2fs-tools: hack headers to unbreak darwin build
@@ -47,10 +79,14 @@ dd9693e ASoC: msm: qdsp6v2: Add support to query adsp version
 eecf268 ANDROID: binder: Add strong ref checks
 168fbf6 Merge pull request #2 from rahulsnair/cm-14.1
 
+   * packages/apps/COTA/
+03cbab4 Cota: Update baseline infrastructure
+
    * platform_manifest/
 a2a8244 manifest: track frameworks/opt/hardware
 
    * vendor/aoscp/
+518bc35 CypherOS 3.1.3 Release 12
 fba488f Devices: Drop support for Onyx
 4f5b922 Configs: Drop support for NFC Enhanced
 d7937ca Devices: Update hammerhead makeConfig
@@ -67,6 +103,7 @@ a3789e4 extract_utils: Use shasum on macOS
 069ea8d athene: apply MM sensor blobs
 799f2de athene: don't use qti-telephony-common.jar
 d1b1207 athene: fix ril & data
+42f0690 fix build
 
 ====================
      11-25-2016
