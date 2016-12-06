@@ -1,4 +1,209 @@
 ====================
+     12-06-2016
+====================
+
+
+   * build/
+38895d1 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_build into bs7.1
+34e1e20 Revert "Revert "Add PRODUCT_BOOTANIMATION""
+
+   * device/motorola/athene/
+844484e athene: build gps HAL
+e398aff athene: overlay LED is not RGB white only
+
+   * frameworks/base/
+44f76c8 AppOps: Do not prune apps that are not present
+41f73b8 Support for MODE_ASK in commandline
+082b221 services: Doze only if GMS is present
+
+   * packages/apps/DUI/
+572d369 Turn IME arrows off by default [2/2]
+
+   * packages/apps/OmniSwitch/
+77d32dd OmniSwitch: call resetRecentsPosition only on first open and not on refresh after a kill
+
+   * packages/apps/Settings/
+c22f890 Always show band 0 (Automatic)
+3f302b6 Turn IME arrows off by default [1/2]
+3a44622 Use bands.length instead of bands[0] when populating the bands list
+
+   * system/sepolicy/
+5abf58d Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_sepolicy into bs7.1
+
+   * vendor/beanstalk/
+e1c3ea1 cm: overlay: Enable auto-power-save modes globally
+
+   * vendor/motorola/athene/
+89a767e athene: build gps HAL
+
+====================
+     12-05-2016
+====================
+
+
+   * device/qcom/sepolicy/
+c62c6dd Allow qmuxd access diag
+46c74da Readd support for old perfd socket
+78700b4 Move bluetooth_loader sepolicy to common
+05446e2 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.9' into cm-14.1
+
+   * packages/apps/Settings/
+8391c5f Settings: Add CMHW vibrator intensity preference
+9964243 Revert "Port vibrator intensity preference from cm-13.0"
+
+   * system/sepolicy/
+813c2af sepolicy: exclude sdcard_posix/fuseblk from shipping builds
+
+====================
+     12-04-2016
+====================
+
+
+   * build/
+12e5255 Revert "Revert "Add PRODUCT_BOOTANIMATION""
+e6b8233 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_build into bs7.1
+
+   * device/motorola/athene/
+19ce250 athene: import carriers overlays
+a01b3b8 athene: remove dhcpcd dependencies from IPACM
+216b4f5 athene: sync IPACM with CAF
+f17ddf3 athene: Switch to the unified LED capabilities overlay
+
+   * frameworks/base/
+40fd006 base: SystemUI: correctly scale battery styles with dpi
+5bdb913 Add back slim date customizations
+dc809ec Fix static analyzer warnings.
+c6f3392 fixed the watchdog due to the dead lock
+f9efa1c Fix NPE for WifiConfiguration in AccessPoint.
+5bf0c9b Data activity icon in statusbar
+1964500 Fix keyguard flash issue
+b171ad9 Don't include front most excluded task in Multi-Window mode
+31bd78a Fix the deadlock problem
+5f22629 Fix memory corruption caused by patchCache.clear
+06aa9c8 VibratorService: Track vibrator intensity
+ab0df7f PhoneWindowManager: Implement press home to answer call
+2d7fce7 am: Account for time changes when showing recent activities
+8eb545e Automatic translation import
+b074888 NotificationManager: Concentrate LED light capabilities in a single location
+06d1b05 ColorFade: fix EGL crash on exynos4 mali blobs
+a37962c Tethering: Turn off wifi hotspot after inactivity(1/3)
+af17191 PhoneWindowManager: Tap volume buttons to answer call
+ed453f4 QS: Show # of clients connected to hotspot
+
+   * packages/apps/CMParts/
+0e07c13 Fix build
+04bd01f Settings: add back status bar date & style options (2/2)
+742214a Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_packages_apps_CMParts into bs7.1
+
+   * packages/apps/Settings/
+8bda449 Automatic translation import
+857e072 Tethering: Turn off wifi hotspot after inactivity(3/3)
+c7e63f1 Settings: Use GLIF Theme for missing Settings > Screen lock Activities
+b5fefc1 Settings: Use separate icon for flashlight power usage
+
+   * packages/apps/UnifiedEmail/
+5caab8c Automatic translation import
+
+   * packages/services/Telephony/
+a64264d Merge branch 'cm-14.1' of github.com:CyanogenMod/android_packages_services_Telephony into bs7.1
+
+   * system/core/
+a88d4b8 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_core into bs7.1
+5e67b8c Revert "[1/2] init.rc: remove hard-coded DOWNLOAD_CACHE environment variable"
+
+   * vendor/beanstalk/
+b7690a5 roomservice: Follow fetched android_device_    *s
+f41ce5a [2/2] cm: set cache partition location
+b07fe4f Revert "[2/2] cm: allow devices to specify they have a separate /cache partition"
+
+   * vendor/cmsdk/
+44fd7f5 Merge branch 'cm-14.1' of github.com:CyanogenMod/cm_platform_sdk into bs7.1
+ecde09b cmsdk: Define a default LED capabilities value
+
+   * vendor/motorola/athene/
+d6142f7 Merge pull request #3 from rahulsnair/cm-14.1
+d839bbd fix-path
+
+====================
+     12-03-2016
+====================
+
+
+   * art/
+72c7409 dex2oat: Use CLOCK_MONOTONIC, not REALTIME for a watchdog!
+
+   * build/
+74b5119 Revert "Add PRODUCT_BOOTANIMATION"
+
+   * external/vim/
+b08aeec Merge tag 'v8.0.0117' into HEAD
+
+   * hardware/ti/omap4/
+453e216 cmhw: Account for devices that don't use manager0 sysfs paths
+
+   * packages/apps/Bluetooth/
+ef49a42 Automatic translation import
+
+   * packages/apps/Calendar/
+550f16a Automatic translation import
+
+   * packages/apps/Email/
+54a22f0 Email: Use NotificationManager to figure out LED capabilities
+
+   * packages/providers/DownloadProvider/
+c1a4ced Automatic translation import
+
+   * packages/services/Telephony/
+c13b021 Automatic translation import
+
+   * vendor/cmsdk/
+610916b cmsdk: Switch to a unified LED capabilities overlay
+
+====================
+     12-02-2016
+====================
+
+
+   * build/
+b6bd8ea build: Conditionally disable ccache for modules with FDO enabled
+
+   * device/motorola/athene/
+d2ca894 athene: fix homebutton derp
+eb6cdc2 athene: address more denials
+07227f2 cmactions: Use Preference Fragments
+c6faad8 cmactions: Remove no more needed workaround
+656df53 athene: cmactions: Add the ability to use FP as Home button
+
+   * external/vim/
+327054d patch 8.0.0117 Problem:    Parallel make fails. (J. Lewis Muir) Solution:   Make sure the objects directory exists. (closes #1259)
+6dbf66a patch 8.0.0116 Problem:    When reading English help and using CTRl-] the language from             'helplang' is used. Solution:   Make help tag jumps keep the language. (Tatsuki, test by Hirohito             Higashi, closes #1249)
+e3af763 patch 8.0.0115 Problem:    When building with Cygwin libwinpthread isn't found. Solution:   Link winpthread statically. (jmmerz, closes #1255, closes #1256)
+b04a98f patch 8.0.0114 Problem:    Coding style not optimal. Solution:   Add spaces. (Ken Takata)
+87f3d20 patch 8.0.0113 Problem:    MS-Windows: message box to prompt for saving changes may appear on             the wrong monitor. Solution:   Adjust the CenterWindow function. (Ken Takata)
+eca626f patch 8.0.0112 Problem:    Tests 92 and 93 are old style. Solution:   Make test92 and test93 new style. (Hirohito Higashi, closes #1289)
+eebd84e patch 8.0.0111 Problem:    The :history command is not tested. Solution:   Add tests. (Dominique Pelle)
+5a030a5 patch 8.0.0110 Problem:    Drop command doesn't use existing window. Solution:   Check the window width properly. (Hirohito Higashi)
+b129a44 patch 8.0.0109 Problem:    Still checking if memcmp() exists while every system should have             it now. Solution:   Remove vim_memcmp().  (James McCoy, closes #1295)
+65e08ee patch 8.0.0108 Problem:    The channel "drop" option is not tested. Solution:   Add a test.
+958dc69 patch 8.0.0107 Problem:    When reading channel output in a timer, messages may go missing.             (Skywind) Solution:   Add the "drop" option.  Write error messages in the channel log.             Don't have ch_canread() check for the channel being open.
+
+   * hardware/qcom/audio-caf/msm8960/
+a85e455 audio: set voice call volume step by property
+
+   * hardware/qcom/audio-caf/msm8994/
+7ca19aa audio: set voice call volume step by property
+
+   * packages/apps/CMParts/
+58e4180 CMParts: Use NotificationManager to figure out LED capabilities
+b35adf0 CMParts: Add volume button call answer switch
+
+   * packages/apps/UnifiedEmail/
+8c91a11 UnifiedEmail: Use NotificationManager to figure out LED capabilities
+
+   * vendor/cmsdk/
+77b34c3 CMSDK: Add volume answer call CMSetting
+
+====================
      11-27-2016
 ====================
 
