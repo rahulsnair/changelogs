@@ -1,40 +1,337 @@
 ====================
+     12-07-2016
+====================
+
+
+   * android/
+212a1c2 Merge branch 'cm-14.1' of github.com:CyanogenMod/android into bs7.1
+102862e cm: android-7.1.1_r4
+
+   * art/
+58d4793 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * build/
+d635a52 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_build into bs7.1
+43e781b blockimgdiff: plz don't spam my terminal, thx
+
+   * device/motorola/athene/
+827d3f6 athene: cmactions: protect com.android.systemui.doze.pulse As stated in ActivityManagerService:
+5112205 athene: address some denials
+
+   * device/qcom/sepolicy/
+32df817 Allow hci_qcomm_init /persist/.bt_nv.bin access
+
+   * frameworks/av/
+08b2db1 Merge tag 'android-7.1.1_r4' into try_again
+58fa2d3 Revert "stagefright: add handling for Large metadata across binder"
+
+   * frameworks/base/
+9ac7df6 Fix CM merge error
+06d7984 Merge tag 'android-7.1.1_r4' into cm-14.1
+b8fc0c1 Revert "Deadlock in PackageInstallerSession"
+b968f48 Revert "Fix WallpaperManager APIs"
+ee84fe9 Revert "Don't include front most excluded task in Multi-Window mode"
+694d58f Revert "Fix keyguard flash issue"
+712483e Revert "Data activity icon in statusbar"
+feed17d Revert "Fix NPE for WifiConfiguration in AccessPoint."
+b90c63e Revert "fixed the watchdog due to the dead lock"
+58aa104 Revert "Fix static analyzer warnings."
+6a94b8b Fix the deadlock problem
+3312626 Revert "Fix the deadlock problem"
+b2572c7 [AM] Fix system server may killed when monkey crash.
+
+   * frameworks/opt/telephony/
+07fb1fe Merge tag 'android-7.1.1_r4' into cm-14.1
+ff5ecfb fix compile error.
+
+   * hardware/qcom/audio-caf/msm8916/
+92eff45 audio policy: fix capture indication to sound trigger service.
+a002cb7 audio policy: fix media volume after ringtone
+bf8c245 audiopolicy: Avoid spurious routing in APM::stopSource
+02f55ae audio_policy: Add extra check before restoring device in stopOutput
+
+   * hardware/qcom/audio-caf/msm8937/
+81237ea audio policy: fix capture indication to sound trigger service.
+61c12d5 audio policy: fix media volume after ringtone
+bfdbcf2 audiopolicy: Avoid spurious routing in APM::stopSource
+
+   * hardware/qcom/audio-caf/msm8952/
+b4d2df1 audio policy: fix capture indication to sound trigger service.
+7d376f3 audio policy: fix media volume after ringtone
+534f1fd audiopolicy: Avoid spurious routing in APM::stopSource
+
+   * hardware/qcom/audio-caf/msm8960/
+5dc5270 audio policy: fix media volume after ringtone
+
+   * hardware/qcom/audio-caf/msm8974/
+b5f28ec audio policy: fix media volume after ringtone
+7010e5b audiopolicy: Avoid spurious routing in APM::stopSource
+
+   * hardware/qcom/audio-caf/msm8994/
+5059cb1 audio policy: fix capture indication to sound trigger service.
+c4bc329 audio policy: fix media volume after ringtone
+3aa03bf audiopolicy: Avoid spurious routing in APM::stopSource
+
+   * hardware/qcom/audio-caf/msm8996/
+07650c8 audio policy: fix capture indication to sound trigger service.
+9449876 audio policy: fix media volume after ringtone
+
+   * packages/apps/Bluetooth/
+18e387a Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/CMParts/
+f3a3280 Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_packages_apps_CMParts into bs7.1
+5e225f9 CMParts: Move resource utility methods into a util class
+
+   * packages/apps/CellBroadcastReceiver/
+ba2807f Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/Dialer/
+a286e45 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_packages_apps_Dialer into bs7.1
+
+   * packages/apps/Settings/
+e631b20 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/services/Telephony/
+51561ba Merge branch 'cm-14.1' of github.com:CyanogenMod/android_packages_services_Telephony into bs7.1
+d6bac60 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * system/core/
+a16ebf4 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_core into bs7.1
+
+   * system/sepolicy/
+e59164d Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_sepolicy into bs7.1
+
+   * vendor/beanstalk/
+bf9608c bump to beanstalk 7.1.1
+
+====================
      12-06-2016
 ====================
 
 
+   * art/
+20af132 dex2oat: Fix compilation of host binary on Mac due to watchdog fix
+
+   * bionic/
+cc5d7ad Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * bootable/recovery/
+93bcfca Merge tag 'android-7.1.1_r4' into cm-14.1
+
    * build/
+55b3889 Merge tag 'android-7.1.1_r4' into cm-14.1
 38895d1 Merge branch 'cm-14.1' of github.com:CyanogenMod/android_build into bs7.1
 34e1e20 Revert "Revert "Add PRODUCT_BOOTANIMATION""
+
+   * development/
+ed637d9 Merge tag 'android-7.1.1_r4' into cm-14.1
 
    * device/motorola/athene/
 844484e athene: build gps HAL
 e398aff athene: overlay LED is not RGB white only
+
+   * external/boringssl/
+20e10d3 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * external/icu/
+96679c6 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * external/iproute2/
+3e14eaf Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * external/libhevc/
+be401a3 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * external/libxml2/
+9074669 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * external/okhttp/
+b36a712 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * external/skia/
+1be5c83 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * external/toybox/
+9f27615 Merge tag 'android-7.1.1_r4' into cm-14.1
 
    * frameworks/base/
 44f76c8 AppOps: Do not prune apps that are not present
 41f73b8 Support for MODE_ASK in commandline
 082b221 services: Doze only if GMS is present
 
+   * frameworks/native/
+1c3a042 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * frameworks/opt/datetimepicker/
+66a7685 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * frameworks/opt/net/ims/
+06434bb Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * frameworks/opt/net/wifi/
+7e4f2af Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * frameworks/opt/setupwizard/
+66dcb82 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * frameworks/opt/vcard/
+90940cd Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * frameworks/support/
+0422d94 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/broadcom/wlan/
+ec1bdf2 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/intel/common/libmix/
+7f2d5a0 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/intel/common/omx-components/
+e8366b6 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/intel/common/utils/
+5617484 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/intel/img/hwcomposer/
+77a5690 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/libhardware/
+f1aeb1f Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/qcom/audio/default/
+6e93570 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/qcom/bt/
+9fda5c3 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/qcom/camera/
+4688bb5 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/qcom/display/
+d7dc8cd Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/qcom/gps/
+371e95f Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/qcom/media/
+2fb47ed Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * hardware/ril/
+4715c65 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * libcore/
+d34cbe9 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/Camera2/
+ba1fd32 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/CarrierConfig/
+2f5013f Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/CertInstaller/
+14ae18b Merge tag 'android-7.1.1_r4' into cm-14.1
+
    * packages/apps/DUI/
 572d369 Turn IME arrows off by default [2/2]
 
+   * packages/apps/Dialer/
+ed8361f Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/EmergencyInfo/
+71b6494 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/ExactCalculator/
+140eeb2 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/ManagedProvisioning/
+94a5f31 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/Messaging/
+09edb9f Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/Nfc/
+213bb13 Merge tag 'android-7.1.1_r4' into cm-14.1
+
    * packages/apps/OmniSwitch/
 77d32dd OmniSwitch: call resetRecentsPosition only on first open and not on refresh after a kill
+
+   * packages/apps/PackageInstaller/
+e1bff64 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/PhoneCommon/
+8d53892 Merge tag 'android-7.1.1_r4' into cm-14.1
 
    * packages/apps/Settings/
 c22f890 Always show band 0 (Automatic)
 3f302b6 Turn IME arrows off by default [1/2]
 3a44622 Use bands.length instead of bands[0] when populating the bands list
 
+   * packages/apps/Stk/
+91e60c1 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/StorageManager/
+c2e731d Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/apps/TvSettings/
+3297a0b Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/inputmethods/LatinIME/
+dded75c Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/providers/ContactsProvider/
+972e214 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/providers/DownloadProvider/
+6867fd9 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/providers/MediaProvider/
+ea4068b Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/providers/TelephonyProvider/
+488ef95 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/services/Car/
+1692bfa Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/services/Mms/
+29e321b Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/services/Telecomm/
+2c0bda4 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * packages/wallpapers/LivePicker/
+47b60d5 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * system/bt/
+6fe776c Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * system/core/
+1ac6d97 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * system/keymaster/
+27afd44 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * system/media/
+c5b5812 Merge tag 'android-7.1.1_r4' into cm-14.1
+
+   * system/netd/
+5615983 Merge tag 'android-7.1.1_r4' into cm-14.1
+
    * system/sepolicy/
 5abf58d Merge branch 'cm-14.1' of github.com:CyanogenMod/android_system_sepolicy into bs7.1
+99f2486 Merge tag 'android-7.1.1_r4' into cm-14.1
+813c2af sepolicy: exclude sdcard_posix/fuseblk from shipping builds
+
+   * system/vold/
+87e0068 Merge tag 'android-7.1.1_r4' into cm-14.1
 
    * vendor/beanstalk/
 e1c3ea1 cm: overlay: Enable auto-power-save modes globally
 
    * vendor/motorola/athene/
 89a767e athene: build gps HAL
+
 
 ====================
      12-05-2016
