@@ -1,4 +1,176 @@
 ====================
+     01-04-2017
+====================
+
+
+   * device/motorola/athene/
+f194e40 init.qcom.power.rc : add some tweak(do not merge)
+08c5f41 athene: remove lteOnCdmaDevice from system.prop
+6be3a42 core_ctl: fix big cluster control
+
+   * external/sqlite/
+a97ddfa sqlite: upgrade to SQLite 3.16.1
+
+   * frameworks/base/
+51f49d3 Merge changes from topic 'blur-ui' into n7.1
+
+   * kernel/motorola/msm8952/
+95ee02b ANDROID: sdcardfs: Fix locking issue with permision fix up
+4b954f7 ANDROID: vfs: Missed updating truncate to truncate2
+0e4c670 BACKPORT: smarter propagate_mnt()
+ac2546f BACKPORT: don't bother with propagate_mnt() unless the target is shared
+674386f ANDROID: trace: net: use %pK for kernel pointers
+
+   * packages/apps/Settings/
+754b68c Update blur for beanstalk build
+3637445 Blur: edit notice, stroke is working now
+c8ac80b Blur: Implement Recents Blur (1/2)
+2736b9e Blur: Add recents blur back that XOSP removed just for the fun
+01a3efa BlurUI: update to N
+eaabf78 Blur: Main switch now restores previous switch values
+87cdad5 [SQUASHED] Implement XOSP Blur personalization options (2/2)
+
+   * packages/services/Telecomm/
+9d6a21f Telecomm: Fix error due to protected broadcast
+
+====================
+     01-03-2017
+====================
+
+
+   * android/
+ee2313e Switch to our chromium-webview fork
+1f397a8 Switch to our sqlite fork
+
+   * build/
+b50650e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into bs7.1
+d79ef4b lunch: Use cd - instead of popd
+382cef5 envsetup: Tweak nested executed commands
+557a76d envsetup: Combine nested else; if into elif in check_product()
+
+   * device/motorola/athene/
+d40094e athene: sync system.prop with stock N
+7dd1c19 athene: ipacm: Fix race condition between nat delete rule and up
+
+   * external/chromium-webview/
+449ed5d Update x86/x86_64 webview
+
+   * external/sqlite/
+6585e6e Revert "Rename libicuuc-host/libicui18n-host to libicuuc/libicui18n"
+bf807b7 Merge "sqlite: upgrade to SQLite 3.16.0"
+e7f3e80 sqlite: upgrade to SQLite 3.16.0
+
+   * frameworks/base/
+3fce33e InputWrapper: Opt out early if session == null
+55cef66 SettingsProvider: Add missing INTERACT_ACROSS_USERS_FULL permission
+2e65128 aapt: silence these warnings
+
+   * hardware/qcom/display-caf/msm8996/
+12980ba hwc2: Only set display_width and display_height when equal to zero
+
+   * kernel/motorola/msm8952/
+f2f681b athene: defconfig: update from stock
+610ac1e perf: protect group_leader from races that cause ctx double-free
+a1ea797 qseecom: check buffer size when loading firmware images
+c9facfa perf: Fix event->ctx locking
+8c20ce3 binder: blacklist %p kptr_restrict
+a98ea5b [PATCH] arm: fix handling of F_OFD_... in oabi_fcntl64()
+6e5e911 mm: cma: fix incorrect type conversion for size during dma allocation.
+a9447dc qcrypto: protect potential integer overflow.
+97a4eef usb: Avoid exposing kernel addresses
+f3dd0dc net: add additional args validation in ping_common_sendmsg()
+776b370 arm64: make sys_call_table const
+da61b29 soc: qcom: pil: Initialize variable to avoid invalid access
+31fe09f BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields
+b60c944 mmc: block: Fix issue with deferred resume when CQ is enabled
+76f8a95 msm: kgsl: Reserve a context ID slot but don't populate immediately
+e48d0b1 ARM: dts: msm: Update crypto AB/IB values for msm8976/56
+9186449 msm-core: use get_user() API to read userspace data/settings
+bb6ddce cgroup: prefer %pK to %p
+c7c2fc9 msm: camera: sensor: Add boundary check for cci master
+2ec5ebd msm: camera: eeprom: Validate the power setting size
+057c8a8 qseecom: Add new ioctl to export qsee version
+3dc96a5 power: wakeup: prevent IPA_WS wakelock from being acquired by default
+
+   * packages/apps/CMParts/
+9d1f7e5 CMParts: Allow control over home button long press action preference
+633c420 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+20ae503 CMParts: remove unused weather toggle for statusbar
+
+====================
+     01-02-2017
+====================
+
+
+   * build/
+668f8aa Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into bs7.1
+916c88c build: core: Rebrand CM_VERSION to LINEAGE_VERSION
+
+   * device/motorola/athene/
+a8b583e athene : Rebrand device    * for LineageOS
+
+   * frameworks/base/
+ea9b79c base: lineage adb icon
+489bfb9 DocumentsUI: add missing icon tint
+6a05c4c Add three-fingers-swipe to screenshot [2/2]
+c57c649 Language toggle QS
+272b508 Merge changes from topic 'OMS' into n7.1
+d25d5dc QS: Add Pulse Visualizer Tile
+98ca641 Telephony: Don't crash for too long baseband version
+be33b96 OMS: Introduce MODIFY_OVERLAYS permission for user apps
+
+   * kernel/motorola/msm8952/
+2d42a32 athene : Rename defconfig for LineageOS
+
+   * packages/apps/Settings/
+5a2b2e4 Hide the "show/hide overlays" when no overlay installed
+51173e8 Add three-fingers-swipe to screenshot [1/2]
+
+   * packages/services/Telephony/
+487e866 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into bs7.1
+
+   * vendor/beanstalk/
+7cc42b4 tools: getb64key - print the base64 version of a PEM public key file
+8518a78 vendor: Add a task for getting prebuilts via http
+6464925 cm: support lineage device trees
+bbd3eb9 apns: Update hollandsnieuwe's (NL) APN
+
+====================
+     01-01-2017
+====================
+
+
+   * build/
+c26742d build: support lineage device trees
+
+   * device/motorola/athene/
+42d7eac athene : add notification led support
+
+   * frameworks/opt/telephony/
+0663988 SubscriptionController: Make sure cis are not null
+
+   * vendor/motorola/
+3b473b7 harpia: initial blob set
+c606cd8 msm8916-common: update blobs
+31a4cdc msm8916-common: make libmot-qc-fd-offline device specific
+
+====================
+     12-31-2016
+====================
+
+
+   * build/
+4243fcc core: finish using PRIVATE_RECOVERY_OUT rather than hard-coding "RECOVERY"
+e326268 Revert "Revert "Revert "Revert "Add PRODUCT_BOOTANIMATION""""
+e47f5aa Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into bs7.1
+
+   * kernel/motorola/msm8952/
+5f36eab leds: leds-atc: Add LED blinking support
+
+   * packages/apps/CMParts/
+a34d3e5 CMParts: Properly fix auto-power-save string format exception
+
+====================
      12-07-2016
 ====================
 
