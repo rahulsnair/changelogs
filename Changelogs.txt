@@ -1,4 +1,142 @@
 ====================
+     01-21-2017
+====================
+
+
+   * device/motorola/athene/
+36c02fc ipacm: Fix KW issues
+
+   * hardware/qcom/display-caf/msm8952/
+ee2bb0e Fix duplicate copy file rules
+
+   * kernel/motorola/msm8952/
+9eadc2d Linux 3.10.104
+
+====================
+     01-20-2017
+====================
+
+
+   * device/motorola/athene/
+4944f3d athene: address some kernel denials
+
+   * frameworks/base/
+ec6bf30 Fix rare SystemUI FC while changing density in settings
+8e16b95 windowmanager: Add support for blur effects
+
+   * packages/apps/Settings/
+5e91b9e Unify the DatePicker Dialog and MIN_DATE
+b9563de Fix default Home preference FC on orientation change
+a2598f3 Fix crash while searching in Settings
+f223c51 Fix the momery leak in DrawOverlayDetails
+df8aa4e ChooseLockGeneric: fix crash
+753d3a9 Add back lockscreen blur
+
+   * vendor/beanstalk/
+bca8d99 apns: Add Freedompop foggmobile APN
+17a5820 build: Append -dtb to kernel image name if TARGET_KERNEL_APPEND_DTB is set
+
+====================
+     01-19-2017
+====================
+
+
+   * build/
+1d82094 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into bs7.1
+
+   * device/motorola/athene/
+7faca20 athene : Use BOARD_HAVE_QCOM_FM flag
+
+   * frameworks/base/
+bbb70ab SystemUI: add Notification volume stream title
+40910bb Readded Platinum Alarm sound as I miss it in newer builds.
+c506678 AudioService: Launch default music player on headset connect
+ef3f081 Fix build from text shadow commit
+d14e4d1 base: SystemUI: add text shadow for text in qs header
+59f28a5 Revert "Fix issue when start android/com.android.internal.backup.LocalTransportService"
+9bed528 Revert "Fix InCallActivity onStop call when launch from Lockscreen"
+
+   * packages/apps/Settings/
+5f697c7 Settings: Launch default music player on headset connect
+9e850e4 Settings: Add volume link notification switch
+b04e1fb Move notif volume pref on top of increasing ring pref
+70b51cc Revert "Settings: Add volume link notification"
+1fe2152 Revert "Update volume link notification"
+
+   * vendor/beanstalk/
+297f4f8 extract_utils: Detect output existence before moving it for backup
+
+====================
+     01-18-2017
+====================
+
+
+   * build/
+4624254 build sign_target_files_apks.py: clean tmp on exit
+
+   * frameworks/base/
+0893ac5 Fix gear not showing when rotation or RTL changed
+975eec2 Immediately adjust hideSensitivity of Notifications
+3b84c1a NetworkManagement : Add ability to restrict app data/wifi usage
+7ced2c4 PhoneWindowManager: add mTopFullscreenOpaqueWindowState null check to fix exception
+
+   * packages/apps/CMParts/
+a96e4ca Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+0c4bd63 Use valid network resources in getNetworkModeString()
+
+   * packages/apps/Settings/
+ec367bf Settings: per-app cellular data and wifi restrictions
+
+====================
+     01-17-2017
+====================
+
+
+   * bootable/recovery/
+e7597e9 minui: Skip EV_REL input devices.
+
+   * frameworks/base/
+fd53562 Don't cut off Brightness slider & button
+8b9bd9b doze: allow grayscale even if invert boolean is false
+db089b9 DUI: Fix navbar edit non-protected broadcast logspam
+a4c6275 sensors: Allow opting out of default batch size
+
+   * hardware/qcom/audio-caf/msm8974/
+e450f54 msm8974: Remove deprecated FM stuff.
+
+   * hardware/qcom/fm/
+b516be3 Use BOARD_HAVE_QCOM_FM flag
+febb559 Revert "fm: do not build for BCM FM devices"
+
+   * packages/apps/CMParts/
+6abbf68 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+6026784 CMParts: profiles: Remove old PagerTabStrip hack
+1c156bf ButtonBacklight: Preview timeout once user stops dragging
+7122e3c CMParts: Update button backlight brightness in real time
+
+   * packages/apps/CMUpdater/
+08f68c0 Updater: rebrand
+
+   * system/sepolicy/
+207f910 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_sepolicy into bs7.1
+c119e6e domain: Create a dummy domain for qc's rmt and let it access /dev/mem
+
+   * vendor/beanstalk/
+1f87ef7 Sepolicy: Add perm for find cmstatusbar
+4656aa7 cm: config: Remove obsolete props
+
+   * vendor/cmsdk/
+5ea1ab9 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+cf51b67 cmsdk: Fix @deprecated annotation mismatch warnings
+
+   * vendor/motorola/
+6a2e6b5 merlin: Drop charge_only_mode
+d241e9d merlin: Use libmmcamera_faceproc.so from shamu to avoid text relocations
+4a42b95 merlin: Import athene libjscore and libjustshoot
+13b8d49 merlin: Update proprietary files
+d0a55af merlin: initial blob set
+
+====================
      01-04-2017
 ====================
 
@@ -1982,4 +2120,5 @@ ad17400 Automatic translation import
 
    * vendor/cmsdk/
 e8aecd3 cmsdk: Ensure CMHW feature constants aren't optimized out
+
 
