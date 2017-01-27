@@ -1,4 +1,346 @@
 ====================
+     01-27-2017
+====================
+
+
+   * bionic/
+2ca6bea linker: allow text relocations on user builds
+
+   * frameworks/base/
+c0accd5 base: volume dialog: hide headers on all streams if requested
+f990974 Expose external qs tile tint color
+
+   * hardware/qcom/audio-caf/msm8916/
+ce91b1e Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.11' into HEAD
+
+   * packages/apps/CMParts/
+c1d5afb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+
+   * packages/apps/ContactsCommon/
+f5e7ead Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into bs7.1
+
+   * packages/apps/Dialer/
+e721ec8 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into bs7.1
+
+   * packages/apps/OmniStyle/
+6edea6f [2/2] OmniStyle: header pack config enhancements
+
+   * packages/apps/Settings/
+54d238b Settings: Expose bluetooth pin confirm dialog text colors
+
+   * packages/apps/SetupWizard/
+a0cd247 SetupWizard: Update test app icon
+
+   * packages/apps/masquerade/
+b5b1004 Release 20P: Initiate the caller package checking system
+
+   * packages/services/Telephony/
+b942e66 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into bs7.1
+
+   * vendor/cmsdk/
+a50b15b Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+
+====================
+     01-26-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8937/
+7f7cc95 Fix 04ed2351 for msm8916 audio platform
+
+   * hardware/qcom/fm/
+982bdf1 Automatic translation import
+
+   * packages/apps/AudioFX/
+2baaf7e Automatic translation import
+
+   * packages/apps/Bluetooth/
+cf8c96d Automatic translation import
+
+   * packages/apps/Browser/
+99f5e4c Automatic translation import
+
+   * packages/apps/CMBugReport/
+94ff9c7 Automatic translation import
+
+   * packages/apps/CMFileManager/
+8cf2b73 Automatic translation import
+
+   * packages/apps/CMParts/
+8173995 Automatic translation import
+
+   * packages/apps/CMUpdater/
+4b122c0 Automatic translation import
+
+   * packages/apps/Calendar/
+1ffaf69 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+982f013 Automatic translation import
+
+   * packages/apps/Contacts/
+38dc136 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+7328811 Automatic translation import
+
+   * packages/apps/Dialer/
+68611c6 Automatic translation import
+
+   * packages/apps/Eleven/
+4feae4e Automatic translation import
+
+   * packages/apps/Email/
+bc8c771 Automatic translation import
+
+   * packages/apps/Gallery2/
+581c0bd Automatic translation import
+
+   * packages/apps/Gello/
+15c3b34 Automatic translation import
+
+   * packages/apps/LockClock/
+b642154 Remove Google Play Services dependency
+c52268f Automatic translation import
+
+   * packages/apps/Messaging/
+af87f9d Automatic translation import
+
+   * packages/apps/PackageInstaller/
+11eeb5d Automatic translation import
+
+   * packages/apps/PhoneCommon/
+f2bbe9e Automatic translation import
+
+   * packages/apps/Profiles/
+e900fa7 Automatic translation import
+
+   * packages/apps/Screencast/
+23c2162 Automatic translation import
+
+   * packages/apps/SetupWizard/
+70bfefd Automatic translation import
+
+   * packages/apps/Snap/
+166d4df Automatic translation import
+
+   * packages/apps/SoundRecorder/
+c2b50b0 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+3e714b2 Automatic translation import
+
+   * packages/apps/Trebuchet/
+c846068 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+024599b Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+479fd88 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+ae28f35 Automatic translation import
+
+   * packages/providers/MediaProvider/
+ef31411 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+841405e Automatic translation import
+
+   * packages/providers/WeatherProvider/
+c5a0f79 Automatic translation import
+
+   * packages/resources/devicesettings/
+21da045 Automatic translation import
+
+   * packages/services/CMAudioService/
+904c90c Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+e767bd9 Automatic translation import
+
+   * packages/services/Telephony/
+5c1667e Automatic translation import
+
+   * packages/services/ThemeManagerService/
+aa8afb9 Automatic translation import
+
+   * packages/services/WeatherService/
+12ace37 Automatic translation import
+
+   * packages/wallpapers/LivePicker/
+effdc0f Automatic translation import
+
+   * vendor/cmsdk/
+fd5664d Automatic translation import
+
+   * vendor/motorola/
+afdd23f merlin: make libmot-qc-fd-offline device specific
+
+====================
+     01-25-2017
+====================
+
+
+   * device/motorola/athene/
+2788ef4 athene: fingerprint update to NPJ25.93-14
+
+   * frameworks/base/
+32344ce Merge changes from topics 'one-handed-mode', 'lava-lamp-colors' into n7.1
+51e29c8 Merge changes from topic 'aosp-master-fixes' into n7.1
+f3b1032 Disable lock screen blur by default
+b7987aa Revert "Add overlay option for Settings.System.ACCELEROMETER_ROTATION_ANGLES"
+1e451f9 Fix window transformation related issue
+35b611c QS - Fix race condition in accessibility
+5c498b2 Make sure Zygote is running at process priority 0 after VM has started.
+
+   * frameworks/native/
+03e6aa0 Add new feature of One-hand UI Mode [2/3]
+
+   * frameworks/opt/hardware/
+50db0be Revert "Add tap-to-wake class definition"
+
+   * hardware/ti/wlan/
+f75d24a wl18xx: fix logical error (single bracket --> double bracket) in scripts file
+b3e137b wl12xx: fix some builds breaking for devices depending on this file
+
+   * packages/apps/CMParts/
+2d02052 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+
+   * packages/apps/DUI/
+5c599b8 DUI: add missing import
+b06ecb6 DUI: Smartbar: One handed mode toggle [2/3]
+ae7426d DUI: Smartbar: Add new feature of One-hand UI Mode [3/3]
+f3a18b9 Add Pulse Lava Lamp start and end colors (2/3)
+
+   * packages/apps/OmniStyle/
+c1bb79c OmniStyle: no padding for ListView bottom
+
+   * packages/apps/Settings/
+c557f41 One handed mode toggle [3/3]
+54f610c Add Pulse Lava Lamp start and end colors (3/3)
+bac00ae Disable lockscreen blur by default
+4ba7e2e Handle SubSettings instance leaks in Index.java
+
+   * packages/apps/SetupWizard/
+d86ccbe Temp: Always disable D2D since its broken atm
+
+====================
+     01-24-2017
+====================
+
+
+   * frameworks/base/
+a5b5159 Allow lid to send a generic COVER_CHANGED broadcast
+3ba9120 Fix for reboot due to Volume State not updated in callback
+3c537bd Integer.valueOf() -> Integer.parseInt() to avoid allocation.
+f8ccedf Avoid needless Integer.valueOf() object allocation.
+e7311bd fix IndexOutOfBoundsException in AccessibilityManagerService..manageServicesLocked
+ed39c5e Avoid starving RT anims
+45d9441 LocalDisplayAdapter: fix crash with HWC2
+9f63452 fix wrong algorithm in WifiPowerPerPacket()
+b9bf6d2 QS Smart Ambient-LiftToWake tile: make it compatible with all devices
+
+   * frameworks/native/
+da86823 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into bs7.1
+
+   * frameworks/opt/hardware/
+d355b50 cmhw: Allow LiveDisplay to check if GPU transform is used
+
+   * packages/apps/CMParts/
+3111720 CMParts: Improve stats collection summary
+0b3178d Status bar date settings: disable clock position check
+
+   * packages/apps/Settings/
+1bd4125 Settings: display fstype for mounted volumes
+
+   * vendor/cmsdk/
+d73a932 cmsdk: cmhw: Deprecate TAP_TO_WAKE feature
+dc4e11f Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+
+====================
+     01-23-2017
+====================
+
+
+   * bootable/recovery/
+1a296fe Fix compile Wreorder warning
+
+   * build/
+32213a6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into bs7.1
+0804c58 core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE
+bdcd34e core: include libf2fs_fmt_host_dyn in otatools
+
+   * device/motorola/athene/
+0ba9f46 athene: set the gpu's default_pwrlevel to 4
+13c705e athene: fix cpusets values
+905cc19 athene: address new denials
+
+   * external/ffmpeg/
+6faf050 ffmpeg: libavcodec: Revert sdclang workaround
+
+   * external/fsck_msdos/
+df221ce Revert "fsck_msdos: Don't use Snapdragon LLVM"
+
+   * frameworks/base/
+86fc394 SystemUI: HotspotTile: Don't reset the number of connected clients
+86f1192 [2/3] Re-introduce custom charging on/off sounds
+8eb0b01 Revert "[1/3] Add back cm charging on/off sounds"
+f0536da Rework dashboard settings [2/2]
+8444db5 Add advanced location tile
+7b74308 Dashboard summaries double lines toggle [1/2]
+5611212 Dashboard tile layout config [2/2]
+71aa01c QS WiFi easy toggle: if enabled, long press for detail view
+54a9ce1 QS: WiFi easy toggle [1/2]
+bc3f60d QS BT easy toggle: if enabled, long press for detail view
+a931fb0 QS: BT easy toggle [1/2]
+4c4eaac Lockscreen charging: Formatting improvements
+a1d8f28 Lockscreen charging: mAh to mA
+de7ce0e Themes: Expose manifest styles for themes
+7789f8b SystemUI: Expose switch bar title
+
+   * hardware/qcom/audio-caf/msm8916/
+ccd4068 Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.01.254.016 on remote branch
+
+   * hardware/qcom/audio-caf/msm8952/
+37f832f Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+a2549f5 hal: Shush some debug logging
+
+   * hardware/qcom/display-caf/msm8952/
+5826a44 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+
+   * hardware/ril-caf/
+bdb5534 ril: Setting ril to v10 or v11 serves no purpose
+
+   * kernel/motorola/msm8952/
+524aefe fix local version
+
+   * packages/apps/CMParts/
+de0d208 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+55914ec Revert "[3/3] CMParts: Add CM charging sounds settings"
+
+   * packages/apps/Settings/
+0a7d6dd SoundSettings: Prevent NPE due to linked volumes change
+42ced06 [3/3] Settings: Add CMParts charging sound settings preference
+fc1ac4e Revert "[2/3] Settings: Redirect charging sounds settings to CMParts"
+3875ade Unify all "advanced" tiles into one easy toggle tile
+ed03554 QS: WiFi easy toggle [2/2]
+dd6d611 QS: Bluetooth easy toggle [2/2]
+6323d9b Rework dashboard settings [1/2]
+ae7be87 Dashboard summaries double lines toggle [2/2]
+54f2810 Dashboard tile layout config [1/2]
+
+   * packages/apps/Snap/
+e0a3c03 Correctly return to film strip after editing a picture.
+
+   * system/extras/su/
+bce2976 su: Enable Wall and fix build
+
+   * vendor/motorola/
+9874833 athene: sync with NPJ25.93-14
+25d92cd msm8960_jbbl: egl: Stop advertising ES3 context support
+====================
      01-21-2017
 ====================
 
