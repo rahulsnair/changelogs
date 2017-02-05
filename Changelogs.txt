@@ -1,4 +1,394 @@
 ====================
+     02-05-2017
+====================
+
+
+   * frameworks/base/
+039f619 Automatic translation import
+6dbfc46 SeekBarVolumizer: Disable notification volume if RINGER_MODE_VIBRATE
+49cda52 OHM recents thumbnails fix: code cleanup
+0c7b7a8 Themes: Expose Keyguard affordance circle background
+
+   * hardware/qcom/fm/
+2b5386c Automatic translation import
+
+   * packages/apps/AudioFX/
+0e6e947 Automatic translation import
+
+   * packages/apps/Bluetooth/
+a269f28 Automatic translation import
+
+   * packages/apps/Browser/
+866b0bf Automatic translation import
+
+   * packages/apps/CMBugReport/
+4fcd796 Automatic translation import
+
+   * packages/apps/CMFileManager/
+08bd02b Automatic translation import
+
+   * packages/apps/CMParts/
+d41b238 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+027357d Automatic translation import
+
+   * packages/apps/CMUpdater/
+fdff241 Automatic translation import
+
+   * packages/apps/Calendar/
+b499a05 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+a187c4a Automatic translation import
+
+   * packages/apps/Contacts/
+e0a364b Automatic translation import
+
+   * packages/apps/DeskClock/
+29c1d2d Automatic translation import
+
+   * packages/apps/Dialer/
+30d6d1d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into bs7.1
+b5cfc6a Automatic translation import
+
+   * packages/apps/Eleven/
+ee30de9 Automatic translation import
+
+   * packages/apps/Email/
+20cdcda Automatic translation import
+
+   * packages/apps/Gallery2/
+747c148 Automatic translation import
+
+   * packages/apps/Gello/
+3089d2f Automatic translation import
+
+   * packages/apps/LockClock/
+cafbdea Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+bb79517 Automatic translation import
+
+   * packages/apps/Messaging/
+8606417 Automatic translation import
+
+   * packages/apps/OmniSwitch/
+ba4c593 OmniSwitch: change app icon
+
+   * packages/apps/PhoneCommon/
+93c85f5 Automatic translation import
+
+   * packages/apps/Settings/
+d4e2ce0 Automatic translation import
+
+   * packages/apps/SetupWizard/
+54311c0 Automatic translation import
+
+   * packages/apps/Snap/
+cf63021 Automatic translation import
+
+   * packages/apps/Terminal/
+068eaa3 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+7ca2ce5 Automatic translation import
+
+   * packages/apps/Trebuchet/
+aaa3783 Automatic translation import
+
+   * packages/apps/TvSettings/
+b9b9215 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+0bdbeb6 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+6981666 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+4da4543 Automatic translation import
+
+   * packages/providers/MediaProvider/
+a64c9b8 Automatic translation import
+
+   * packages/resources/devicesettings/
+f8073ff Automatic translation import
+
+   * packages/services/CMAudioService/
+6dad83d Automatic translation import
+
+   * packages/services/Telecomm/
+1369ae3 Automatic translation import
+
+   * packages/services/Telephony/
+2b640b5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into bs7.1
+a34ea3c Automatic translation import
+
+   * packages/services/ThemeManagerService/
+d345819 Automatic translation import
+
+   * packages/services/WeatherService/
+d3f16b2 Automatic translation import
+
+   * packages/wallpapers/LivePicker/
+5acf0e7 Automatic translation import
+
+   * vendor/beanstalk/
+f95e640 vendor: fix lunch combo name to lineage
+
+   * vendor/cmsdk/
+093f80b Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+7f3548d Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+97dc85c Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+1efd29a Automatic translation import
+
+====================
+     02-04-2017
+====================
+
+
+   * external/DUtils/
+51bcdae OHM Actions: Use separate icon (1/2)
+
+   * frameworks/base/
+20d5403 ADB "N" icon compatible with OMS7
+8f92d0c Add a protected broadcast for Masquerade events
+93bca4d SystemUI: PowerNotification: Add up button to fragment
+
+   * packages/apps/CMParts/
+fd2ca51 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+f1ccf80 CMParts: Long-press power while display is off for torch
+
+   * packages/apps/DUI/
+26726c8 OHM Actions: Use separate icon (2/2)
+
+   * packages/apps/LockClock/
+f9d9201 LockClock: change forecast text color to white
+
+   * packages/apps/Settings/
+a6a7d9c Set external settings icon tint mode to SRC_ATOP
+
+   * vendor/beanstalk/
+17c5547 apns: Add SingTel hi!card sim APN
+de54efa apns: Update H2O Wireless for LTE
+
+   * vendor/cmsdk/
+d53cf98 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+9526453 CMSDK: Add long-press power for torch CMSetting
+
+====================
+     02-03-2017
+====================
+
+
+   * bionic/
+91b06f9 linker: Allow only specified non-PIE executables
+9936a63 Revert "Revert "Reenable support for non-PIE executables""
+
+   * device/qcom/common/
+fe5a259 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_qcom_common into bs7.1
+
+   * frameworks/base/
+4041d06 Use STREAM_RING on non-voice capable devices
+2a471fb Revert "SystemUI: Hide ring volume on non-voice capable devices"
+3c0a2fe Revert "AudioService: Play volume adjustment sound on STREAM_NOTIFICATION for non-voice capable devices"
+
+   * packages/apps/CMParts/
+038315e Fix last merge
+7baba0d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+
+   * packages/apps/Settings/
+3a5ea82 Show proper notification volume icon on non-voice capable devices
+f8b6879 SoundSettings: Always initialize mRingOrNotificationPreference
+395a944 Revert "SoundSettings: Prevent NPE due to linked volumes change"
+
+   * vendor/cmsdk/
+5eb4d0f Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+
+====================
+     02-02-2017
+====================
+
+
+   * device/qcom/common/
+b136210 power: Remove POWER_HINT_AUDIO
+
+   * frameworks/base/
+d05180e Remove Data Saver QS tile dialog
+cc31507 Automatic translation import
+
+   * hardware/libhardware/
+f29cb1f hardware: power: Remove POWER_HINT_AUDIO
+4be06d8 Revert "power: Add support for camera preview in powerHAL"
+
+   * packages/apps/CMParts/
+b101045 CMParts: Clean up status bar settings class
+23b59db CMParts: power: Resolve 'automatic optimization' state issues
+d92491d CMParts: Update quick QS pull-down entries for RTL layouts
+c42152e CMParts: Don't update status bar clock summary on RTL
+6cde43d CMParts: Update quick QS pull-down summary on pref change
+cd1b8b1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+
+   * packages/apps/CMUpdater/
+a254e24 CMUpdater: Show updates only for the channel a user is on
+
+   * packages/apps/Dialer/
+a907de1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into bs7.1
+
+   * packages/apps/Settings/
+48c256e Automatic translation import
+0c4021a Settings: rebrand to LineageOS
+
+   * packages/apps/SetupWizard/
+fdf1c87 Automatic translation import
+cd34a58 Build org.cyanogenmod.platform.internal as static library
+
+   * packages/resources/devicesettings/
+b857442 Automatic translation import
+
+   * packages/services/Telephony/
+905f2a0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into bs7.1
+
+   * vendor/cmsdk/
+ebf0e84 cmsdk: PerformanceManager: Update POWER_HINT_SET_PROFILE value
+9154590 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+
+====================
+     02-01-2017
+====================
+
+
+   * android/
+66d9221 cm: Remove external/google
+
+   * external/DUtils/
+f8c1b86 DUI: Add one handed mode action [1/2]
+
+   * frameworks/base/
+d7d7a1c Fix recents thumbnails for one hand mode
+8961e38 PhoneWindowManager: Support multiple key handlers
+99c713a core: more descriptive vendor image mismatch message
+
+   * frameworks/native/
+67c00df Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into bs7.1
+
+   * frameworks/opt/hardware/
+3a49878 cmhw: Add TouchscreenGestures API
+
+   * hardware/qcom/fm/
+a02172a Automatic translation import
+
+   * kernel/motorola/msm8952/
+7124f9b prima : update to CAF LA.BR.1.3.6_rb1.12
+
+   * packages/apps/AudioFX/
+68476c6 Automatic translation import
+
+   * packages/apps/Bluetooth/
+8fc4ad3 Automatic translation import
+
+   * packages/apps/CMBugReport/
+b23a2ac Automatic translation import
+
+   * packages/apps/CMFileManager/
+ff821d4 Automatic translation import
+
+   * packages/apps/CMParts/
+9f19e4a Automatic translation import
+532f3eb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+661ea53 CMParts: Move status bar tap to sleep pref to Settings
+2ccca73 CMParts: Add touchscreen gesture settings and keyhandler
+c82eb89 CMParts: buttons: Remove double tap power for camera setting
+
+   * packages/apps/CMUpdater/
+6fba07c Automatic translation import
+
+   * packages/apps/Calendar/
+e7899e8 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+7f56ce1 Automatic translation import
+
+   * packages/apps/DUI/
+89c45a8 One hand: slidetouch listener only on navbar view
+ff6ae83 DUI: Add one handed mode action [2/2]
+
+   * packages/apps/Dialer/
+35acdb7 Automatic translation import
+
+   * packages/apps/Eleven/
+bb82223 Automatic translation import
+
+   * packages/apps/Gallery2/
+e457e7e Gallery2: Fix crash when using locations view
+
+   * packages/apps/Gello/
+794fdd5 Automatic translation import
+
+   * packages/apps/LockClock/
+1cfcb29 Automatic translation import
+
+   * packages/apps/Messaging/
+196421b Automatic translation import
+
+   * packages/apps/OmniStyle/
+726a9bb OmniStyle: add Syed header pack
+1353ec7 OmniStyle: add creator meta data for header packs
+338bd87 OmniStyle: add wallpaper contribution and picker
+
+   * packages/apps/PhoneCommon/
+e935ceb Automatic translation import
+
+   * packages/apps/Settings/
+121af64 Settings: Add status bar tap to sleep pref to gestures
+62d3fa9 Settings: gesture: Add CMParts touchscreen gesture settings
+
+   * packages/apps/SetupWizard/
+4e218b6 Remove Google Play Services dependency
+
+   * packages/apps/Snap/
+289e677 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+ed41164 Automatic translation import
+
+   * packages/apps/Trebuchet/
+3778f4d Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+be55cf6 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+e346efc Automatic translation import
+
+   * packages/providers/WeatherProvider/
+67824b6 Automatic translation import
+
+   * packages/services/CMAudioService/
+9d998c1 Automatic translation import
+
+   * packages/services/Telephony/
+335b81f Automatic translation import
+
+   * packages/services/ThemeManagerService/
+149b09d Automatic translation import
+
+   * packages/services/WeatherService/
+dc3564a Automatic translation import
+
+   * vendor/beanstalk/
+45049b1 cm: overlay: Settings: Enable gesture settings
+
+   * vendor/cmsdk/
+a789a99 Automatic translation import
+6929cb7 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+cfaf39e cmsdk: Add touchscreen gestures support
+f142715 cmsdk: Add DeviceKeyHandler overlays
+
+====================
      01-27-2017
 ====================
 
