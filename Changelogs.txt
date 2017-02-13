@@ -1,7 +1,315 @@
 ====================
+     02-13-2017
+====================
+
+
+   * bootable/recovery/
+e946931 Rename process_key to ProcessKey
+54886fb Fix bldr msg file open mode when offset specified
+
+   * build/
+07b85c8 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into bs7.1
+c3fa952 Revert "Allow to force disable block based OTAs"
+
+   * frameworks/base/
+b23c620 Revert "Night Light brightness mode options [1/2]"
+ea52864 Revert "Night auto brightness: restore user brightness values also after reboot"
+
+   * packages/apps/Settings/
+1b2514e Revert "Night Light brightness mode options [2/2]"
+be4f441 Revert "Revert "Remove useless night display option""
+d2dea0d Revert "Revert "settings: Kill night mode if we have LiveDisplay""
+
+   * packages/services/Telephony/
+0f84ee0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into bs7.1
+b4f0a00 Telephony: Fix qtistrings
+
+====================
+     02-12-2017
+====================
+
+
+   * build/
+1a03881 Allow to force disable block based OTAs
+
+   * device/motorola/athene/
+751d402 overlay : disable lockscreen UI blur
+bc2bebb athene : Enable lockscreen UI blur
+1981de3 we are not going to use zram
+074e025 prop :  add back core_ctl props
+22552a1 cmactions: Improve doze denial thresholds
+c9cbd01 Revert "fix up sepolicies for exfat"
+c60b5d0 fix camera.hal1.packagelist cannot exceed 91 bytes
+1193078 cmactions: Fix disconnect between code and Settings defaults
+b1dca5a cmactions: set wakelock based on screen state
+07d1bec sepolicy: Unbreak bluetooth
+b53d026 rootdir: Move ril flags to boot
+90b5bf4 Move vold.post_fs_data_done=1 at the end of post-fs-data
+f4b00f7 Audio: Include all Dev with Enc codecs and flac
+39a190a fix up sepolicies for exfat
+16ecb85 Drop Eris
+fca89cd Drop irqbalance
+d92fcec rootdir: Remove sampling_down_factor setting
+8fbb2c7 rootdir: Turn on LED at full battery
+8bb3f53 Allow the radio to access qmux
+8351664 Add apps using hal1 camera api
+
+   * frameworks/base/
+4db8aac Don't reposition the clock when pulling down the notification bar
+2a70258 Switch frameworks/base/core/jni from gcc to clang.
+c00a765 SystemUI: Use mContext.getDrawable for battery icon
+c783c69 Revert "Battery icon: fix getDrawable for new Android API"
+ec9ce4e Slim recents: avoid crashes due to different drawable types
+0b7d8c0 Revert "Change long click actions on some QS tiles"
+8acf120 Auto calculate quickbar tiles amount
+fa755a7 All tile scroller for quickbar settings [1/2]
+fa1224d QS tiles string changes
+c34e9bb OneHandMode Recents: fix NPE
+a1d0450 Change long click actions on some QS tiles
+3d64e01 Turn the spam off
+
+   * hardware/qcom/fm/
+6fd80f6 jni: Confine the firmware-load skipping to the actual loading
+f132291 Automatic translation import
+
+   * kernel/motorola/msm8952/
+a05eb13 prima : update to LA.BR.1.3.6_rb1.13
+
+   * packages/apps/AudioFX/
+c591503 Automatic translation import
+
+   * packages/apps/Bluetooth/
+e377bdc Automatic translation import
+
+   * packages/apps/Browser/
+652e0a5 Automatic translation import
+
+   * packages/apps/CMBugReport/
+dafa10b Automatic translation import
+
+   * packages/apps/CMFileManager/
+aaf23a3 Automatic translation import
+
+   * packages/apps/CMParts/
+674a4b4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into bs7.1
+834a19f CMParts: gestures: Specify a qualified user for update broadcast
+212d44b Automatic translation import
+
+   * packages/apps/CMUpdater/
+984cfa9 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+62f591b Automatic translation import
+
+   * packages/apps/Calendar/
+df43875 Automatic translation import
+
+   * packages/apps/Camera2/
+6ac4fde Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+c7866f5 Automatic translation import
+
+   * packages/apps/CertInstaller/
+2332b25 Automatic translation import
+
+   * packages/apps/Contacts/
+6bef6e4 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+60d3f92 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into bs7.1
+74032e6 Automatic translation import
+
+   * packages/apps/DeskClock/
+edaca30 Automatic translation import
+
+   * packages/apps/Dialer/
+67ba560 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into bs7.1
+4c8711f Automatic translation import
+
+   * packages/apps/Eleven/
+7a9e5c2 Automatic translation import
+
+   * packages/apps/Email/
+b0fadab Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+82eb30a Automatic translation import
+
+   * packages/apps/ExactCalculator/
+a70d604 Automatic translation import
+
+   * packages/apps/Exchange/
+e458fec Automatic translation import
+
+   * packages/apps/FMRadio/
+cf589ab Automatic translation import
+
+   * packages/apps/Gallery2/
+15d1f72 Automatic translation import
+
+   * packages/apps/Gello/
+3a2438d Automatic translation import
+
+   * packages/apps/HTMLViewer/
+88fe2d8 Automatic translation import
+
+   * packages/apps/KeyChain/
+b6f7264 Automatic translation import
+
+   * packages/apps/LockClock/
+3092f9d Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+6cc07ae Automatic translation import
+
+   * packages/apps/Messaging/
+86275a5 Automatic translation import
+
+   * packages/apps/Nfc/
+1cce1b3 Automatic translation import
+
+   * packages/apps/PackageInstaller/
+fe20f2b Automatic translation import
+
+   * packages/apps/PhoneCommon/
+5cc6be4 Automatic translation import
+
+   * packages/apps/Profiles/
+f1c23ad Automatic translation import
+
+   * packages/apps/Recorder/
+e4e79ce Automatic translation import
+
+   * packages/apps/SafetyRegulatoryInfo/
+0b5fc12 Automatic translation import
+
+   * packages/apps/Settings/
+a405f00 Track RemotePreferenceManager API changes.
+e900c2a Settings: Set ADB notification on by default
+45bef7c HACK Settings: no idea what happens woth the deep shortcuts of settings
+4f343f4 All tile scroller for quickbar settings [2/2]
+
+   * packages/apps/SetupWizard/
+167ac2c Automatic translation import
+
+   * packages/apps/Snap/
+e8a6615 Automatic translation import
+
+   * packages/apps/Stk/
+e15be25 Automatic translation import
+
+   * packages/apps/Tag/
+12cab82 Automatic translation import
+
+   * packages/apps/Terminal/
+6f71e9f Automatic translation import
+
+   * packages/apps/ThemeChooser/
+7817771 Automatic translation import
+
+   * packages/apps/Trebuchet/
+6a669a3 Automatic translation import
+
+   * packages/apps/TvSettings/
+d1bc85b Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+d39d44a Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+eb5be41 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+42bf994 Automatic translation import
+
+   * packages/providers/BookmarkProvider/
+dc3bb73 Automatic translation import
+
+   * packages/providers/CalendarProvider/
+168badf Automatic translation import
+
+   * packages/providers/CallLogProvider/
+0715865 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+68f1225 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+60282f9 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+783d5cf Automatic translation import
+
+   * packages/providers/MediaProvider/
+8bfb878 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+de1f545 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+dd7ff50 Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+3d347b1 Automatic translation import
+
+   * packages/providers/WeatherProvider/
+68a67f3 Automatic translation import
+
+   * packages/resources/devicesettings/
+64395d2 Automatic translation import
+
+   * packages/screensavers/Basic/
+31ccb14 Automatic translation import
+
+   * packages/screensavers/PhotoTable/
+a3afce8 Automatic translation import
+
+   * packages/services/CMAudioService/
+00e085e Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+226fe91 Automatic translation import
+
+   * packages/services/Telecomm/
+6fda99c Automatic translation import
+
+   * packages/services/Telephony/
+6c8d427 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into bs7.1
+27f6d60 Telephony: Fix qtistrings
+801d7aa Automatic translation import
+
+   * packages/services/ThemeManagerService/
+0f49c72 Automatic translation import
+
+   * packages/services/WeatherService/
+b64184a Automatic translation import
+
+   * packages/wallpapers/LivePicker/
+dfc9087 Automatic translation import
+
+   * vendor/cmsdk/
+5e13233 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into bs7.1
+6669674 RemotePreferenceManager: Fix receiver registration issues.
+77b94bc Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+847f472 Automatic translation import
+
+   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+0d0f144 Automatic translation import
+
+   * vendor/motorola/
+2ef790a athene :  add blur support
+1d76dd3 add Moto Z (griffin)
+
+====================
      02-11-2017
 ====================
 
+
+   * device/motorola/athene/
+33398c5 remove multi-declared permission file
 
    * vendor/motorola/
 0cbbd0e victara: Update widevine blobs
